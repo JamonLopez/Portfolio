@@ -40,3 +40,76 @@ body {
 .header-nav a:hover {
     color: #ffffff;
 }
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  background-color: #0f0f0f;
+}
+
+.hero-contenido {
+  max-width: 600px;
+}
+
+.hero-saludo {
+  color: #4f9eff;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.hero-nombre {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.hero-titulo {
+  font-size: 1.8rem;
+  color: #aaaaaa;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero-descripcion {
+  color: #bbbbbb;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.hero-botones {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  padding: 12px 28px;
+  background-color: #4f9eff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.primary-btn:hover {
+  background-color: #3a8aef;
+}
+
+.secondary-btn {
+  padding: 12px 28px;
+  border: 1px solid #555;
+  color: #cccccc;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.secondary-btn:hover {
+  border-color: #aaaaaa;
+  color: #ffffff;
+}
