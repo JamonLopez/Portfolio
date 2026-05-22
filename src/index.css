@@ -41,6 +41,8 @@ body {
     color: #ffffff;
 }
 
+/* HERO SECTION */
+
 .hero {
   min-height: 90vh;
   display: flex;
@@ -112,4 +114,75 @@ body {
 .secondary-btn:hover {
   border-color: #aaaaaa;
   color: #ffffff;
+}
+
+/* ABOUT ME SECTION */
+
+.about {
+  padding: 80px 60px;
+  background-color: #111111;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #4f9eff;
+}
+
+.about-content {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-text p {
+  color: #bbbbbb;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 260px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 15px;
+}
+
+.info-label {
+  font-size: 0.75rem;
+  color: #4f9eff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-value {
+  font-size: 0.95rem;
+  color: #dddddd;
 }

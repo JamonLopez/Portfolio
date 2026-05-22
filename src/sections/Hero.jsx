@@ -11,8 +11,8 @@ function Hero() {
                     y resolver problemas técnicos
                 </p>
                 <div className="hero-boton">
-                    <a href="#proyectos" className="primary-btn">Ver Proyectos</a>
-                    <a href="#contacto" className="secondary-btn">Contacto</a>
+                    <a href="#proyectos" className="primary-btn" style={{ margin: '0 10px 0 0' }}>Ver Proyectos</a>
+                    <a href="#contacto" className="secondary-btn" style={{margin: '0 10px 0 0'}}>Contacto</a>
                 </div>
             </div>
         </section>
