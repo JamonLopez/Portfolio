@@ -44,7 +44,7 @@ body {
 /* HERO SECTION */
 
 .hero {
-  min-height: 90vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   padding: 0 60px;
@@ -238,4 +238,174 @@ body {
 .skills-tag:hover {
   border-color: #4f9eff;
   color: #ffffff;
+}
+
+/* PROJECTS SECTION */
+.projects {
+  padding: 80px 60px;
+  background-color: #111111;
+}
+
+.projects-container {
+  max-width: 1000px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: border-color 0.2s;
+}
+
+.project-card:hover {
+  border-color: #4f9eff;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.project-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.project-status {
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.status-active {
+  background-color: #1a3a2a;
+  color: #4caf82;
+  border: 1px solid #4caf82;
+}
+
+.status-soon {
+  background-color: #1a1a2a;
+  color: #7777aa;
+  border: 1px solid #7777aa;
+}
+
+.project-description {
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-tag {
+  padding: 4px 10px;
+  background-color: #222;
+  color: #4f9eff;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  border: 1px solid #333;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+.project-link {
+  font-size: 0.85rem;
+  color: #4f9eff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.project-link:hover {
+  color: #ffffff;
+}
+
+/* CONTACT SECTION */
+.contact {
+  padding: 80px 60px;
+  background-color: #0f0f0f;
+}
+
+.contact-container {
+  max-width: 800px;
+}
+
+.contact-subtitle {
+  color: #aaaaaa;
+  font-size: 1rem;
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+.contact-content {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 1;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  color: #4f9eff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-value {
+  font-size: 0.95rem;
+  color: #dddddd;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-value:hover {
+  color: #4f9eff;
+}
+
+.contact-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.contact-cta p {
+  color: #aaaaaa;
+  font-size: 0.95rem;
 }
